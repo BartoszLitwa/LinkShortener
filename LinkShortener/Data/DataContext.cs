@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LinkShortener.Data
 {
-    public class DbContext : IdentityDbContext
+    public class DataContext : IdentityDbContext
     {
-        public DbContext(DbContextOptions<DbContext> options) : base(options)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
 
         }

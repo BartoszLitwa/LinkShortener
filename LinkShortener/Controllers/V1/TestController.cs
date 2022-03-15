@@ -1,5 +1,4 @@
-﻿using LinkShortener.Data.Data;
-using Microsoft.AspNetCore.Http;
+﻿using LinkShortener.Data.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LinkShortener.Controllers.V1
